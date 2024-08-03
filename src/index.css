@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    width: 90%;
+}
+
+ul{
+    align-items: center;
+}
+
+li{
+    margin: 0 30px;
+}
+
+ nav{
+    background-color: #2C3E50;
+ }
+
+.foo-ter{
+    background-color: #2C3E50;
+}
+
+.i-footer i{
+    border:solid 1px white ;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.test{
+    height: 82vh;
+    background-color: #1ABC9C;
+}
+.im-g{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+.im-g img{
+    width: 250px;
+
+}
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    height: 4px;
+    width: 80px;
+}
+i{
+    color: white;
+}
+
+.ab-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 0 0;
+}
+
+.p-por{
+    color: rgb(44, 62, 80);
+}
+.color{
+    color: #2C3E50;
+}
+.liyar1{
+    position: relative;
+}
+
+.liyer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(26, 188, 156, 0.781);
+    opacity: 0;
+    transition: all .5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.liyar1:hover .liyer{
+    opacity: 1;
+}
+
+.liyer i{
+    font-size: 100px;
+}
+
+
+.error-container { 
+    text-align: center; 
+    background-color: #fff; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+} 
+  
+.error-container  h1 { 
+    font-size: 5rem; 
+    color: #ff5733; 
+} 
+  
+.error-container  p { 
+    font-size: 1.5rem; 
+    color: #333; 
+    margin-bottom: 20px; 
+} 
+  
+.error-container  a { 
+    text-decoration: none; 
+    background-color: #ff5733; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    transition: background-color 0.3s ease; 
+} 
+  
+.error-container  a:hover { 
+    background-color: #e6482e; 
+}
+
+.active{
+    @apply bg-emerald-500 p-2 rounded-md
+}
+
+ @media screen and (max-width:768px){
+    .nav-bar{
+        display: block;
+    }
+    .ul-bar{
+        display: block;
+        margin: 10px 0;
+    }
+    .ul-bar li{
+        padding: 8px 0;
+    }
+    .text-footer{
+        margin: 20px 0;
+    }
+
+ }
